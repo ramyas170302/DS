@@ -1,13 +1,13 @@
 # Two Sum II – Pair With Given Sum (GFG)
 
-## 🧩 Problem
+##  Problem
 
 Given a **sorted array** of integers and a target value, find **one pair** of numbers whose sum equals the target.
 Return the **indices (1-based)** of the two numbers.
 
 ---
 
-## 📥 Example
+##  Example
 
 **Input:**
 arr = [1, 2, 4, 6, 10]
@@ -21,7 +21,7 @@ target = 8
 
 ---
 
-## 🚀 Approach — Two Pointer Method
+##  Approach — Two Pointer Method
 
 Because the array is **sorted**, we can efficiently use the two-pointer technique.
 
@@ -41,7 +41,7 @@ Because the array is **sorted**, we can efficiently use the two-pointer techniqu
    * If sum < target → move left++
    * If sum > target → move right--
 
-✅ Works in **O(n)** time
+ Works in **O(n)** time
 
 
 
@@ -49,12 +49,12 @@ Because the array is **sorted**, we can efficiently use the two-pointer techniqu
 
 
 
-## 🎯 Key Points
+##  Key Points
 
 * Array must be **sorted**
 * Two pointers reduce time from O(n²) to O(n)
-* Very common in interviews
+
 
 ---
 
-✨ *Solved by Ramya – DSA Practice*
+ *Solved by Ramya – DSA Practice*
